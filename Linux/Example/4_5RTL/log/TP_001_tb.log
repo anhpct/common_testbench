@@ -1,0 +1,7 @@
+Mon Oct  5 10:40:03 2020
+VCD info: dumpfile TP_001_tb.vcd opened for output.
+ Reset = 0   Time:                    0
+ Select = 0    1Mhz     Time:     0.000 us
+At address 00  :   Data in the startstop register = 00　  at time: 1001.000
+At address 01  :   Data in the timer1 register    = 99　  at time: 3002.000
+At address 10  :   Data in the timer2 register    = 99　  at time: 5003.000

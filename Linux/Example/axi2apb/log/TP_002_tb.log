@@ -1,0 +1,7 @@
+Mon Oct  5 10:41:57 2020
+VCD info: dumpfile TP_002_tb.vcd opened for output.
+----- Read Access WRITE_WAIT_TRANSFER task -----
+----- Read Access READ_DATA_FAIL task -----
+----- Read Access WRITE_DATA_FAIL task -----
+----- Read Access READ_DATA task -----
+----- Read Access WRITE_DATA task -----

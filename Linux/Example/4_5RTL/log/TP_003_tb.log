@@ -1,0 +1,103 @@
+Mon Oct  5 10:40:03 2020
+VCD info: dumpfile TP_003_tb.vcd opened for output.
+ Reset = 0   Time:                    0
+ Select = 1    0.5Mhz    Time:     0.000 us
+At address 00  :   Data in the startstop register = 00　  at time: 515003.000
+At address 01  :   Data in the timer1 register    = 99　  at time: 518004.000
+At address 10  :   Data in the timer2 register    = 99　  at time: 521005.000
+ Select = 0    1Mhz     Time:   523.005 us
+ Reset = 1   Time:   693.005 us 
+interval_num_ 1    In fact tout_10 =    10.000 us - PASS   at time: 713501.000
+interval_num_ 2    In fact tout_10 =    10.000 us - PASS   at time: 723501.000
+interval_num_ 3    In fact tout_10 =    10.000 us - PASS   at time: 733501.000
+interval_num_ 4    In fact tout_10 =    10.000 us - PASS   at time: 743501.000
+interval_num_ 5    In fact tout_10 =    10.000 us - PASS   at time: 753501.000
+interval_num_ 6    In fact tout_10 =    10.000 us - PASS   at time: 763501.000
+interval_num_ 7    In fact tout_10 =    10.000 us - PASS   at time: 773501.000
+interval_num_ 8    In fact tout_10 =    10.000 us - PASS   at time: 783501.000
+
+interval_num_ 1    In fact tout_100 =    50.000 us - PASS  at time: 793501.000  setup tout_100 = 50us 
+
+interval_num_ 9    In fact tout_10 =    10.000 us - PASS   at time: 793501.000
+interval_num_10    In fact tout_10 =    10.000 us - PASS   at time: 803501.000
+interval_num_11    In fact tout_10 =    10.000 us - PASS   at time: 813501.000
+interval_num_12    In fact tout_10 =    10.000 us - PASS   at time: 823501.000
+interval_num_13    In fact tout_10 =    10.000 us - PASS   at time: 833501.000
+
+interval_num_ 2    In fact tout_100 =    50.000 us - PASS  at time: 843501.000  setup tout_100 = 50us 
+
+interval_num_14    In fact tout_10 =    10.000 us - PASS   at time: 843501.000
+At address 00  :   Data in the startstop register = 01　  at time: 850009.000
+At address 01  :   Data in the timer1 register    = 49　  at time: 853010.000
+interval_num_15    In fact tout_10 =    10.000 us - PASS   at time: 853501.000
+At address 10  :   Data in the timer2 register    = 04　  at time: 856011.000
+ Select = 1    0.5Mhz    Time:   858.011 us
+interval_num_16    In fact tout_10 =    28.000 us - FAIL   at time: 881501.000
+interval_num_17    In fact tout_10 =    10.000 us - PASS   at time: 891501.000
+interval_num_18    In fact tout_10 =    10.000 us - PASS   at time: 901501.000
+interval_num_19    In fact tout_10 =    10.000 us - PASS   at time: 911501.000
+
+interval_num_ 3    In fact tout_100 =    78.000 us - FAIL  at time: 921501.000
+
+interval_num_20    In fact tout_10 =    10.000 us - PASS   at time: 921501.000
+interval_num_21    In fact tout_10 =    10.001 us - PASS   at time: 931502.000
+interval_num_22    In fact tout_10 =    10.000 us - PASS   at time: 941502.000
+interval_num_23    In fact tout_10 =    10.000 us - PASS   at time: 951502.000
+interval_num_24    In fact tout_10 =    10.000 us - PASS   at time: 961502.000
+interval_num_25    In fact tout_10 =    10.000 us - PASS   at time: 971502.000
+
+interval_num_ 4    In fact tout_100 =    50.001 us - PASS  at time: 971502.000  setup tout_100 = 50us 
+
+interval_num_26    In fact tout_10 =    10.000 us - PASS   at time: 981502.000
+interval_num_27    In fact tout_10 =    10.000 us - PASS   at time: 991502.000
+interval_num_28    In fact tout_10 =    10.000 us - PASS   at time: 1001502.000
+interval_num_29    In fact tout_10 =    10.000 us - PASS   at time: 1011502.000
+
+interval_num_ 5    In fact tout_100 =    50.000 us - PASS  at time: 1021502.000  setup tout_100 = 50us 
+
+interval_num_30    In fact tout_10 =    10.000 us - PASS   at time: 1021502.000
+interval_num_31    In fact tout_10 =    10.000 us - PASS   at time: 1031502.000
+interval_num_32    In fact tout_10 =    10.000 us - PASS   at time: 1041502.000
+interval_num_33    In fact tout_10 =    10.000 us - PASS   at time: 1051502.000
+interval_num_34    In fact tout_10 =    10.000 us - PASS   at time: 1061502.000
+interval_num_35    In fact tout_10 =    10.000 us - PASS   at time: 1071502.000
+
+interval_num_ 6    In fact tout_100 =    50.000 us - PASS  at time: 1071502.000  setup tout_100 = 50us 
+
+At address 00  :   Data in the startstop register = 01　  at time: 1073014.000
+At address 01  :   Data in the timer1 register    = 49　  at time: 1076015.000
+At address 10  :   Data in the timer2 register    = 04　  at time: 1079016.000
+ Select = 0    1Mhz     Time:  1081.016 us
+interval_num_36    In fact tout_10 =    10.000 us - PASS   at time: 1081502.000
+interval_num_37    In fact tout_10 =    10.000 us - PASS   at time: 1091502.000
+interval_num_38    In fact tout_10 =    10.000 us - PASS   at time: 1101502.000
+interval_num_39    In fact tout_10 =    10.000 us - PASS   at time: 1111502.000
+
+interval_num_ 7    In fact tout_100 =    50.000 us - PASS  at time: 1121502.000  setup tout_100 = 50us 
+
+interval_num_40    In fact tout_10 =    10.000 us - PASS   at time: 1121502.000
+interval_num_41    In fact tout_10 =     9.999 us - PASS   at time: 1131501.000
+interval_num_42    In fact tout_10 =    10.000 us - PASS   at time: 1141501.000
+interval_num_43    In fact tout_10 =    10.000 us - PASS   at time: 1151501.000
+interval_num_44    In fact tout_10 =    10.000 us - PASS   at time: 1161501.000
+
+interval_num_ 8    In fact tout_100 =    49.999 us - PASS  at time: 1171501.000  setup tout_100 = 50us 
+
+interval_num_45    In fact tout_10 =    10.000 us - PASS   at time: 1171501.000
+interval_num_46    In fact tout_10 =    10.000 us - PASS   at time: 1181501.000
+interval_num_47    In fact tout_10 =    10.000 us - PASS   at time: 1191501.000
+interval_num_48    In fact tout_10 =    10.000 us - PASS   at time: 1201501.000
+interval_num_49    In fact tout_10 =    10.000 us - PASS   at time: 1211501.000
+
+interval_num_ 9    In fact tout_100 =    50.000 us - PASS  at time: 1221501.000  setup tout_100 = 50us 
+
+interval_num_50    In fact tout_10 =    10.000 us - PASS   at time: 1221501.000
+interval_num_51    In fact tout_10 =    10.000 us - PASS   at time: 1231501.000
+interval_num_52    In fact tout_10 =    10.000 us - PASS   at time: 1241501.000
+interval_num_53    In fact tout_10 =    10.000 us - PASS   at time: 1251501.000
+interval_num_54    In fact tout_10 =    10.000 us - PASS   at time: 1261501.000
+
+interval_num_10    In fact tout_100 =    50.000 us - PASS  at time: 1271501.000  setup tout_100 = 50us 
+
+interval_num_55    In fact tout_10 =    10.000 us - PASS   at time: 1271501.000
+interval_num_56    In fact tout_10 =    10.000 us - PASS   at time: 1281501.000

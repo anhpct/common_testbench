@@ -1,0 +1,426 @@
+$date
+	Mon Oct  5 10:40:03 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module timer_tb $end
+$var wire 1 ! tout_100 $end
+$var wire 1 " tout_10 $end
+$var wire 8 # rdata [7:0] $end
+$var reg 2 $ addr [1:0] $end
+$var reg 1 % clk $end
+$var reg 1 & read $end
+$var reg 1 ' rst_n $end
+$var reg 1 ( sel $end
+$var reg 8 ) wdata [7:0] $end
+$var reg 1 * write $end
+$var real 1 + edge10 $end
+$var real 1 , edge100 $end
+$var integer 32 - i [31:0] $end
+$var integer 32 . j [31:0] $end
+$scope module tb $end
+$var wire 2 / addr [1:0] $end
+$var wire 1 % clk $end
+$var wire 1 0 clr_comb $end
+$var wire 1 1 comb $end
+$var wire 1 & read $end
+$var wire 1 ' rst_n $end
+$var wire 1 ( sel $end
+$var wire 8 2 wdata [7:0] $end
+$var wire 1 * write $end
+$var wire 8 3 timer2 [7:0] $end
+$var wire 8 4 timer1 [7:0] $end
+$var wire 8 5 startstop [7:0] $end
+$var wire 1 6 start_flag $end
+$var wire 8 7 rdata [7:0] $end
+$var wire 1 8 flag2 $end
+$var wire 1 9 flag1 $end
+$var wire 4 : comp_out [3:0] $end
+$var wire 1 ; clrcnt_flag $end
+$var wire 1 < clk_out $end
+$var wire 1 = WE3 $end
+$var wire 1 > WE2 $end
+$var wire 1 ? WE1 $end
+$var wire 1 @ RE3 $end
+$var wire 1 A RE2 $end
+$var wire 1 B RE1 $end
+$var wire 4 C CMP2_flagB [3:0] $end
+$var wire 4 D CMP2_flagA [3:0] $end
+$var wire 4 E CMP1_flagB [3:0] $end
+$var wire 4 F CMP1_flagA [3:0] $end
+$var reg 1 G clk2 $end
+$var reg 4 H cnt1 [3:0] $end
+$var reg 4 I cnt2 [3:0] $end
+$var reg 1 J cnt_adj $end
+$var reg 1 K sel1 $end
+$var reg 1 L sel_out $end
+$var reg 1 " tout_10 $end
+$var reg 1 ! tout_100 $end
+$upscope $end
+$scope task READ_DATA $end
+$var reg 2 M R_ADDR [1:0] $end
+$upscope $end
+$scope task WRITE_DATA $end
+$var reg 2 N W_ADDR [1:0] $end
+$var reg 8 O W_DATA [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx O
+bx N
+b0 M
+xL
+xK
+xJ
+bx I
+bx H
+xG
+b1001 F
+b1001 E
+b1001 D
+b1001 C
+0B
+0A
+0@
+0?
+0>
+0=
+x<
+0;
+b1001 :
+x9
+x8
+b0 7
+06
+b0 5
+b10011001 4
+b10011001 3
+b0 2
+x1
+00
+b0 /
+b0 .
+b0 -
+r0 ,
+r0 +
+0*
+b0 )
+0(
+0'
+0&
+0%
+b0 $
+b0 #
+x"
+x!
+$end
+#1000
+01
+09
+08
+0<
+b0 H
+0"
+b0 I
+0!
+0K
+0L
+0J
+0G
+#500000
+1<
+1%
+#1000000
+1B
+0<
+0%
+1&
+#1500000
+1<
+1%
+#2000000
+0<
+0%
+#2001000
+0B
+b1 $
+b1 /
+b1 M
+0&
+#2500000
+1<
+1%
+#3000000
+0<
+0%
+#3001000
+b10011001 #
+b10011001 7
+1A
+1&
+#3500000
+1<
+1%
+#4000000
+0<
+0%
+#4002000
+b0 #
+b0 7
+0A
+b10 M
+b10 $
+b10 /
+0&
+#4500000
+1<
+1%
+#5000000
+0<
+0%
+#5002000
+b10011001 #
+b10011001 7
+1@
+1&
+#5500000
+1<
+1%
+#6000000
+0<
+0%
+#6003000
+b0 #
+b0 7
+0@
+b10000000 )
+b10000000 2
+b10000000 O
+b0 N
+b0 $
+b0 /
+0&
+#6500000
+1<
+1%
+#7000000
+0<
+0%
+#7003000
+1?
+1*
+#7500000
+1<
+1%
+#8000000
+0<
+0%
+#8003000
+0?
+0*
+#8004000
+b1 O
+b1 )
+b1 2
+#8500000
+1<
+1%
+#9000000
+0<
+0%
+#9004000
+1?
+1*
+#9500000
+1<
+1%
+#10000000
+0<
+0%
+#10004000
+0?
+0*
+#10005000
+b1 $
+b1 /
+b1001001 O
+b1 N
+b1001001 )
+b1001001 2
+#10500000
+1<
+1%
+#11000000
+0<
+0%
+#11005000
+1>
+1*
+#11500000
+1<
+1%
+#12000000
+0<
+0%
+#12005000
+0>
+b0 $
+b0 /
+0*
+#12006000
+b10 $
+b10 /
+b1001 O
+b10 N
+b1001 )
+b1001 2
+#12500000
+1<
+1%
+#13000000
+0<
+0%
+#13006000
+1=
+1*
+#13500000
+1<
+1%
+#14000000
+0<
+0%
+#14006000
+0=
+b0 $
+b0 /
+0*
+#14007000
+b0 )
+b0 2
+#14500000
+1<
+1%
+#15000000
+0<
+0%
+#15500000
+1<
+1%
+#16000000
+0<
+0%
+#16500000
+1<
+1%
+#17000000
+0<
+0%
+#17500000
+1<
+1%
+#18000000
+0<
+0%
+#18500000
+1<
+1%
+#19000000
+0<
+0%
+#19500000
+1<
+1%
+#20000000
+0<
+0%
+#20500000
+1<
+1%
+#21000000
+0<
+0%
+#21500000
+1<
+1%
+#22000000
+0<
+0%
+#22500000
+1<
+1%
+#23000000
+0<
+0%
+#23500000
+1<
+1%
+#24000000
+0<
+0%
+#24500000
+1<
+1%
+#25000000
+0<
+0%
+#25500000
+1<
+1%
+#26000000
+0<
+0%
+#26500000
+1<
+1%
+#27000000
+0<
+0%
+#27500000
+1<
+1%
+#28000000
+0<
+0%
+#28500000
+1<
+1%
+#29000000
+0<
+0%
+#29500000
+1<
+1%
+#30000000
+0<
+0%
+#30500000
+1<
+1%
+#31000000
+0<
+0%
+#31500000
+1<
+1%
+#32000000
+0<
+0%
+#32500000
+1<
+1%
+#33000000
+0<
+0%
+#33500000
+1<
+1%
+#34000000
+0<
+0%
+#34007000

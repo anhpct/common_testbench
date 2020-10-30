@@ -1,0 +1,520 @@
+$date
+	Mon Oct 05 11:05:26 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module timer_tb $end
+$var wire 8 ! rdata [7:0] $end
+$var wire 1 " tout_10 $end
+$var wire 1 # tout_100 $end
+$var reg 2 $ addr [1:0] $end
+$var reg 1 % clk $end
+$var integer 32 & i [31:0] $end
+$var integer 32 ' j [31:0] $end
+$var reg 1 ( read $end
+$var reg 1 ) rst_n $end
+$var reg 1 * sel $end
+$var reg 8 + wdata [7:0] $end
+$var reg 1 , write $end
+$var real 1 - edge10 $end
+$var real 1 . edge100 $end
+$scope module tb $end
+$var wire 4 / CMP1_flagA [3:0] $end
+$var wire 4 0 CMP1_flagB [3:0] $end
+$var wire 4 1 CMP2_flagA [3:0] $end
+$var wire 4 2 CMP2_flagB [3:0] $end
+$var wire 1 3 RE1 $end
+$var wire 1 4 RE2 $end
+$var wire 1 5 RE3 $end
+$var wire 1 6 WE1 $end
+$var wire 1 7 WE2 $end
+$var wire 1 8 WE3 $end
+$var wire 2 9 addr [1:0] $end
+$var wire 1 : clk $end
+$var wire 1 ; clk_out $end
+$var wire 1 < clr_cnt2 $end
+$var wire 1 = clr_comb $end
+$var wire 1 > clrcnt_flag $end
+$var wire 1 ? comb $end
+$var wire 4 @ comp_out [3:0] $end
+$var wire 1 A flag1 $end
+$var wire 1 B flag2 $end
+$var wire 8 C rdata [7:0] $end
+$var wire 1 D read $end
+$var wire 1 E rst_n $end
+$var wire 1 F sel $end
+$var wire 1 G start_flag $end
+$var wire 8 H startstop [7:0] $end
+$var wire 8 I timer1 [7:0] $end
+$var wire 8 J timer2 [7:0] $end
+$var wire 8 K wdata [7:0] $end
+$var wire 1 L write $end
+$var reg 1 M clk2 $end
+$var reg 4 N cnt1 [3:0] $end
+$var reg 4 O cnt2 [3:0] $end
+$var reg 1 P cnt_adj $end
+$var reg 1 Q sel1 $end
+$var reg 1 R sel_out $end
+$var reg 1 S tout_10 $end
+$var reg 1 T tout_100 $end
+$upscope $end
+$scope task READ_DATA $end
+$var reg 2 U R_ADDR [1:0] $end
+$upscope $end
+$scope task WRITE_DATA $end
+$var reg 2 V W_ADDR [1:0] $end
+$var reg 8 W W_DATA [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx W
+bx V
+b0 U
+xT
+xS
+xR
+xQ
+xP
+bx O
+bx N
+xM
+0L
+b0 K
+b10011001 J
+b10011001 I
+b0 H
+0G
+0F
+0E
+0D
+b0 C
+xB
+xA
+b1001 @
+x?
+0>
+0=
+x<
+x;
+0:
+b0 9
+08
+07
+06
+05
+04
+03
+b1001 2
+b1001 1
+b1001 0
+b1001 /
+r0 .
+r0 -
+0,
+b0 +
+0*
+0)
+0(
+b0 '
+b0 &
+0%
+b0 $
+x#
+x"
+b0 !
+$end
+#1000
+0<
+0?
+0A
+0B
+0;
+b0 N
+0S
+0"
+b0 O
+0T
+0#
+0Q
+0R
+0P
+0M
+#500000
+1;
+1%
+1:
+#1000000
+13
+0;
+0%
+0:
+1(
+1D
+#1500000
+1;
+1%
+1:
+#2000000
+0;
+0%
+0:
+#2001000
+03
+b1 $
+b1 9
+b1 U
+0(
+0D
+#2500000
+1;
+1%
+1:
+#3000000
+0;
+0%
+0:
+#3001000
+b10011001 !
+b10011001 C
+14
+1(
+1D
+#3500000
+1;
+1%
+1:
+#4000000
+0;
+0%
+0:
+#4002000
+b0 !
+b0 C
+04
+b10 U
+b10 $
+b10 9
+0(
+0D
+#4500000
+1;
+1%
+1:
+#5000000
+0;
+0%
+0:
+#5002000
+b10011001 !
+b10011001 C
+15
+1(
+1D
+#5500000
+1;
+1%
+1:
+#6000000
+0;
+0%
+0:
+#6003000
+b0 !
+b0 C
+05
+b10000000 +
+b10000000 K
+b10000000 W
+b0 V
+b0 $
+b0 9
+0(
+0D
+#6500000
+1;
+1%
+1:
+#7000000
+0;
+0%
+0:
+#7003000
+16
+1,
+1L
+#7500000
+1;
+1%
+1:
+#8000000
+0;
+0%
+0:
+#8003000
+06
+0,
+0L
+#8004000
+b1 W
+b1 +
+b1 K
+#8500000
+1;
+1%
+1:
+#9000000
+0;
+0%
+0:
+#9004000
+16
+1,
+1L
+#9500000
+1;
+1%
+1:
+#10000000
+0;
+0%
+0:
+#10004000
+06
+0,
+0L
+#10005000
+b1 $
+b1 9
+b1001001 W
+b1 V
+b1001001 +
+b1001001 K
+#10500000
+1;
+1%
+1:
+#11000000
+0;
+0%
+0:
+#11005000
+17
+1,
+1L
+#11500000
+1;
+1%
+1:
+#12000000
+0;
+0%
+0:
+#12005000
+07
+b0 $
+b0 9
+0,
+0L
+#12006000
+b10 $
+b10 9
+b1001 W
+b10 V
+b1001 +
+b1001 K
+#12500000
+1;
+1%
+1:
+#13000000
+0;
+0%
+0:
+#13006000
+18
+1,
+1L
+#13500000
+1;
+1%
+1:
+#14000000
+0;
+0%
+0:
+#14006000
+08
+b0 $
+b0 9
+0,
+0L
+#14007000
+b0 +
+b0 K
+#14500000
+1;
+1%
+1:
+#15000000
+0;
+0%
+0:
+#15500000
+1;
+1%
+1:
+#16000000
+0;
+0%
+0:
+#16500000
+1;
+1%
+1:
+#17000000
+0;
+0%
+0:
+#17500000
+1;
+1%
+1:
+#18000000
+0;
+0%
+0:
+#18500000
+1;
+1%
+1:
+#19000000
+0;
+0%
+0:
+#19500000
+1;
+1%
+1:
+#20000000
+0;
+0%
+0:
+#20500000
+1;
+1%
+1:
+#21000000
+0;
+0%
+0:
+#21500000
+1;
+1%
+1:
+#22000000
+0;
+0%
+0:
+#22500000
+1;
+1%
+1:
+#23000000
+0;
+0%
+0:
+#23500000
+1;
+1%
+1:
+#24000000
+0;
+0%
+0:
+#24500000
+1;
+1%
+1:
+#25000000
+0;
+0%
+0:
+#25500000
+1;
+1%
+1:
+#26000000
+0;
+0%
+0:
+#26500000
+1;
+1%
+1:
+#27000000
+0;
+0%
+0:
+#27500000
+1;
+1%
+1:
+#28000000
+0;
+0%
+0:
+#28500000
+1;
+1%
+1:
+#29000000
+0;
+0%
+0:
+#29500000
+1;
+1%
+1:
+#30000000
+0;
+0%
+0:
+#30500000
+1;
+1%
+1:
+#31000000
+0;
+0%
+0:
+#31500000
+1;
+1%
+1:
+#32000000
+0;
+0%
+0:
+#32500000
+1;
+1%
+1:
+#33000000
+0;
+0%
+0:
+#33500000
+1;
+1%
+1:
+#34000000
+0;
+0%
+0:
+#34007000
